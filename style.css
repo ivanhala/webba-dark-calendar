@@ -1,0 +1,42 @@
+.picker__holder, picker__day {
+    background: #232323 !important;
+}
+#picker__day picker__day--infocus picker__day--disabled{
+    background: #232323 !important;
+}
+.picker__month{
+	color: #ccc !important;
+}
+table:not( .has-background ) th {
+    background-color: #939393 !important;
+    color: #fff !important;  
+}
+.picker__day--disabled, .picker__day--disabled:hover, .picker--focused .picker__day--disabled {
+    background: #232323 !important;
+    border: none !important;
+  
+}
+table:not( .has-background ) tbody tr:nth-child(2n) td, fieldset, fieldset legend {
+    background-color: #232323 !important;
+    color: #fff !important;
+}
+table:not( .has-background ) tbody td {
+    background-color: #232323;
+}
+.picker__day--outfocus {
+    color: #ffffff !important;
+}
+.picker__day {
+    word-wrap: normal !important;
+    color: #fff !important;
+    font-weight: normal !important;
+}
+.picker__button--today, .picker__button--clear, .picker__button--close {
+color: #fff !important; 
+background: #232323 !important;
+border: none !important;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+    background: #ff6922;
+    border: none !important;
+}
